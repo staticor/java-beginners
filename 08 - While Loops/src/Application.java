@@ -6,8 +6,8 @@ public class Application {
         while(value < 10)
         {
             System.out.println("Hello " + value);
-             
-            value = value + 1;
+
+            value += 1;
         }
     }
 }
